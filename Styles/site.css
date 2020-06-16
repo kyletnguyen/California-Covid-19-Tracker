@@ -1,0 +1,47 @@
+﻿html,
+body {
+    height: 100%;
+}
+
+#page-content {
+    flex: 1 0 auto;
+}
+
+.footer {
+    flex-shrink: 0;
+}
+
+/* Other Classes for Page Styling */
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url('https://source.unsplash.com/BtbjCFUvBXs/1920x1080');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.descr {
+    font-size: .8em;
+}
+
+#btnCovid {
+    margin-top: 1em;
+    color: white;
+}
+
+.disclaimer {
+    margin-top: 30em;
+}
+
+.btn-disabled {
+    filter: alpha(opacity=30) !important;
+    opacity: .30 !important;
+    background-color: #111 !important;
+}
+
+.gvContainer {
+    margin-top: 1em;
+}
